@@ -1,1 +1,3 @@
 https://iptv-org.github.io/iptv/countries/cn.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u
