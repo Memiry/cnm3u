@@ -30,7 +30,7 @@ jobs:
         run: npm install -g iptv-checker
 
       - name: '获取m3u列表'
-        run: wget -i url.txt 2>/dev/null -O - >> cn.m3u
+        run: cat https://iptv-org.github.io/iptv/countries/cn.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/tw.m3u https://raw.githubusercontent.com/iptv-org/iptv/master/streams/sg.m3u > cn.m3u
 
       # 执行更新代码
       - name: 'Update cn m3u'
